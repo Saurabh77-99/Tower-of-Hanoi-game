@@ -1,0 +1,146 @@
+body {
+  background-color: #000000;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  align-content: center;
+}
+
+#header {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  color: #d031d5;
+  font-family:'Poppins',sans-serif;
+}
+
+.moves {
+  font-family:'Poppins',sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(239, 9, 9);
+}
+
+#towers {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.base {
+  position: relative;
+  width: 180px;
+  height: 200px;
+  margin: auto;
+  border-bottom: 9px #421b1b solid;
+  border-radius: 20px;
+}
+
+.line1,
+.line2,
+.line3 {
+  padding: 2px;
+  width: 5px;
+  height: 155px;
+  background: #421b1b;
+  border-radius: 180px;
+  padding-top: 50px;
+  margin: 10px 0 0 65px;
+  position: relative;
+  align-items: center;
+}
+
+#towers li {
+  position: relative;
+  display: block;
+  height: 20px;
+  border-radius: 10px;
+  top: 170px;
+}
+
+#disc7 {
+  background-color: #f33cdd;
+  width: 175px;
+  margin: -40px 0 0 -86px;
+}
+
+#disc6 {
+  background-color: #9e76e9;
+  width: 150px;
+  margin: -40px 0 0 -73px;
+}
+
+#disc5 {
+  background-color: rgb(53, 177, 227);
+  width: 125px;
+  margin: -40px 0 0 -58px;
+}
+
+#disc4 {
+  background-color: #5ce473;
+  width: 100px;
+  margin: -40px 0 0 -46px;
+}
+
+#disc3 {
+  background-color: #e7e756;
+  width: 75px;
+  margin: -40px 0 0 -34px;
+}
+
+#disc2 {
+  background-color: #e9a14e;
+  width: 50px;
+  margin: -40px 0 0 -22px;
+}
+
+#disc1 {
+  background-color: #ed7a7a;
+  width: 25px;
+  margin: -40px 0 0 -10px;
+}
+
+.buttons {
+  font-family:'Poppins',sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 50px;
+  width: 90px;
+  border-radius: 15px;
+  background-color: rgb(4, 212, 215);
+  color: #000000;
+  opacity: 0.7;
+}
+
+#discno {
+  font-family:'Poppins',sans-serif;
+  font-size: 20px;
+  color: #0cdce3;
+  margin: auto;
+}
+
+#box {
+  font-size: 20px;
+  text-align: center;
+  height: 20px;
+  width: 50px;
+  font-family: 'Poppins',sans-serif;
+}
+
+#restart {
+  margin: auto;
+}
+
+.buttons:hover {
+  margin: auto;
+  opacity: 1;
+}
